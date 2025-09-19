@@ -81,7 +81,7 @@ section {
 
 .main-header {
 
-    background-color: var(--cor-branca);
+    background-color: var(--cor-clara);
 
     padding: 15px 0; /* Espaçamento vertical */
 
@@ -186,7 +186,8 @@ section {
      }
 
 .gallery-item { /* Estilo para cada item da galeria */
-    border-radius: 8px; overflow: hidden; 
+    border-radius: 8px; 
+    overflow: hidden; 
 
 }
 
@@ -314,4 +315,8 @@ section {
          color: var(--cor-branca); 
         animation: textAnimation 3s infinite alternate;
 
+}
+
+.section-title{
+color: var(--cor-escura);
 }
